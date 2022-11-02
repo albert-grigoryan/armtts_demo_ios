@@ -17,6 +17,8 @@
 		4C85B3B026003109003EF7CF /* FastSpeech2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B3AE26003109003EF7CF /* FastSpeech2.swift */; };
 		4C85B3B826004180003EF7CF /* mb_melgan.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 4C85B3B626004180003EF7CF /* mb_melgan.tflite */; };
 		5039B62A290FCE8D008B2053 /* fastspeech2.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 5039B629290FCE8D008B2053 /* fastspeech2.tflite */; };
+		FDF5C3102912756F0003A675 /* Genos-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDF5C30F2912756E0003A675 /* Genos-Regular.ttf */; };
+		FDF5C312291275FA0003A675 /* Graphik-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FDF5C311291275FA0003A675 /* Graphik-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +33,15 @@
 		4C85B39F26002E34003EF7CF /* ARMTTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMTTS.swift; sourceTree = "<group>"; };
 		4C85B3AD26003108003EF7CF /* MBMelGAN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBMelGAN.swift; sourceTree = "<group>"; };
 		4C85B3AE26003109003EF7CF /* FastSpeech2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastSpeech2.swift; sourceTree = "<group>"; };
-		4C85B3B626004180003EF7CF /* mb_melgan.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mb_melgan.tflite; sourceTree = "<group>"; };
-		5039B629290FCE8D008B2053 /* fastspeech2.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = fastspeech2.tflite; sourceTree = "<group>"; };
+		4C85B3B626004180003EF7CF /* mb_melgan.tflite */ = {isa = PBXFileReference; lastKnownFileType = text; path = mb_melgan.tflite; sourceTree = "<group>"; };
+		5039B629290FCE8D008B2053 /* fastspeech2.tflite */ = {isa = PBXFileReference; lastKnownFileType = text; path = fastspeech2.tflite; sourceTree = "<group>"; };
 		7D7970556264AB38256CF749 /* Pods-TF TTS Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TF TTS Demo.release.xcconfig"; path = "Target Support Files/Pods-TF TTS Demo/Pods-TF TTS Demo.release.xcconfig"; sourceTree = "<group>"; };
 		99A43F21F9647E3677352A5B /* Pods-TF TTS Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TF TTS Demo.debug.xcconfig"; path = "Target Support Files/Pods-TF TTS Demo/Pods-TF TTS Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		B3A5C735C30B2D5FC8C19020 /* Pods-TF_TTS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TF_TTS_Demo.debug.xcconfig"; path = "Target Support Files/Pods-TF_TTS_Demo/Pods-TF_TTS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C1CADB09B153D7F6C47943F4 /* libPods-ARMTTS_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARMTTS_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A15A5967523BB8A50C844F /* Pods-TF_TTS_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TF_TTS_Demo.release.xcconfig"; path = "Target Support Files/Pods-TF_TTS_Demo/Pods-TF_TTS_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		FDF5C30F2912756E0003A675 /* Genos-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Genos-Regular.ttf"; path = "../../../../../Downloads/Genos/static/Genos-Regular.ttf"; sourceTree = "<group>"; };
+		FDF5C311291275FA0003A675 /* Graphik-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Graphik-Bold.otf"; path = "../../../../../Downloads/Graphik-Font-Family/Graphik-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 		4C85B38926002B7D003EF7CF /* ARMTTS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				FDF5C30E2912754E0003A675 /* Fonts */,
 				4C85B3A326002E8B003EF7CF /* ARMTTS */,
 				4C85B38A26002B7D003EF7CF /* DemoApp.swift */,
 				4C85B38C26002B7D003EF7CF /* ContentView.swift */,
@@ -130,6 +135,15 @@
 				41308C4551ABEE34D8239370 /* Pods-ARMTTS_Demo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDF5C30E2912754E0003A675 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5C311291275FA0003A675 /* Graphik-Bold.otf */,
+				FDF5C30F2912756E0003A675 /* Genos-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +208,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5039B62A290FCE8D008B2053 /* fastspeech2.tflite in Resources */,
+				FDF5C312291275FA0003A675 /* Graphik-Bold.otf in Resources */,
 				4C85B39226002B7E003EF7CF /* Preview Assets.xcassets in Resources */,
+				FDF5C3102912756F0003A675 /* Genos-Regular.ttf in Resources */,
 				4C85B3B826004180003EF7CF /* mb_melgan.tflite in Resources */,
 				4C85B38F26002B7E003EF7CF /* Assets.xcassets in Resources */,
 			);
