@@ -12,13 +12,13 @@ cd armtts_demo_ios.git
 pod install
 ```
 
-3. Download and update the models: [fastspeech2.tflite](https://www.dropbox.com/s/614z0qaaim36rf8/fastspeech2.tflite), [mb_melgan.tflite](https://www.dropbox.com/s/i5w76jen4dggtdu/mb_melgan.tflite)
+2. Download and update the models: [fastspeech2.tflite](https://www.dropbox.com/s/614z0qaaim36rf8/fastspeech2.tflite), [mb_melgan.tflite](https://www.dropbox.com/s/i5w76jen4dggtdu/mb_melgan.tflite)
 
 
-2. Update the **token** in *ContentView.swift*
+3. Update the **token** in *ContentView.swift*
 
 ```
 @StateObject var tts = ARMTTS(token: "UPDATE_TOKEN_HERE")
 ```
 
-3. Build
+4. Build
